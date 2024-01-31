@@ -1,0 +1,195 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1F2544;
+    text-decoration: underline;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    position: sticky;
+    margin: auto;
+    width: 100%;
+    top: 0;
+    background: white;
+    display: flex;
+    line-height: 80px;
+    border-bottom: 2px solid #1F2544;
+    z-index: 1;
+}
+
+nav ul{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.teks{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 0px 0px 50px;
+}
+
+.teks .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #1F2544;
+}
+
+h2{
+    font-weight: 800px;
+    font-family: 'comic sans ms';
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #1F2544;
+    width: 100%;
+    line-height: 50px;
+}
+
+.lebihlanjut{
+    background: #6C22A6;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+a.lebihlanjut:hover{
+    background: #EEEDEB;
+    text-decoration: none;
+    color: black;
+}
+
+.mid{
+    text-align: center;
+    width: 100%;
+}
+
+.memberlist{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anggota{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.anggota img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.anggota p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #1F2544;
+}
+
+.eventlist{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.elist{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.elist img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.elist p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #1F2544;
+   
+}
+
+#contact{
+    background: #E8C872;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.end{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #1F2544;
+    width:100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: right;
+}
